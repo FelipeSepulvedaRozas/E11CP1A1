@@ -15,6 +15,11 @@
   </head>
 
   <body>
+    <nav class="nav-inverse">
+      <%=link_to 'ONE',pages_one_path,class:'btn btn-primary' %>
+      <%=link_to 'TWO',pages_two_path,class:'btn btn-danger' %>
+      <%=link_to 'THREE',pages_three_path,class:'btn btn-warning' %>
+    </nav>
     <%= yield %>
   </body>
 </html>
